@@ -1,0 +1,124 @@
+1. User Access
+<applet name="UserAdministrationApplet" 
+					id="UserAdministrationApplet"
+					width="100%" height="100%"
+					align="top"
+					codebase="/war/applets"
+					archive="useradministration.jar,prm-common.jar,commons-lang.jar,applets-bo.jar,prm-guisupport.jar,forms-1.0.7.jar,jide.jar,poi.jar,poi-ooxml.jar,prm-applets-common.jar,shared-i18n-0.9.19.jar,shared-ldap-0.9.19.jar,shared-ldif-0.9.19.jar,log4j.jar,slf4j-api-1.5.3.jar,slf4j-log4j12-1.5.3.jar,commons-collections.jar,commons-validator.jar,jakarta-oro.jar,HTMLEditorPro.jar,resource_strings.jar,prm-img.jar,commons-logging.jar"
+					code="com.primavera.pvapplets.useradministration.UserAdministrationApplet"
+					vspace="0" hspace="0" >
+					<param name="cache_option" value="Plugin" />
+					<param name="cache_archive"
+						value="useradministration.jar,prm-common.jar,commons-lang.jar,applets-bo.jar,prm-guisupport.jar,forms-1.0.7.jar,jide.jar,poi.jar,poi-ooxml.jar,prm-applets-common.jar,shared-i18n-0.9.19.jar,shared-ldap-0.9.19.jar,shared-ldif-0.9.19.jar,log4j.jar,slf4j-api-1.5.3.jar,slf4j-log4j12-1.5.3.jar,commons-collections.jar,commons-validator.jar,jakarta-oro.jar,HTMLEditorPro.jar,resource_strings.jar,prm-img.jar,commons-logging.jar" />
+					<param name="ServerURL" value="http://localhost:7001/war/BO" />
+					<param name="TimeZone" value="Asia/Calcutta" />
+					<param name="UserId" value="91" />
+					<param name="DBId" value="1" />
+					<param name="Brand" value="" />
+					<param name="USessionId" value="16410" />
+					<param name="RequestorLocale" value="en_US" />
+					<param name="SelectedView" value="FlatListView" />
+					<param name="SelectedTab" value="User" />
+					<param name="ViewSecurityProfile" value="true" />
+					<param name="IMAGESPATH" value="/war/icons/" />
+					<param name="PingURL" value="http://localhost:7001/war/ping" />
+					<param name="separate_jvm" value="true" />
+					<param name="java_arguments"
+						value="-Xms256m -Xmx1024m -Djnlp.packEnabled=true" />
+					<param name="cache_archive"
+						value="useradministration.jar,prm-common.jar,commons-lang.jar,applets-bo.jar,prm-guisupport.jar,forms-1.0.7.jar,jide.jar,poi.jar,poi-ooxml.jar,prm-applets-common.jar,shared-i18n-0.9.19.jar,shared-ldap-0.9.19.jar,shared-ldif-0.9.19.jar,log4j.jar,slf4j-api-1.5.3.jar,slf4j-log4j12-1.5.3.jar,commons-collections.jar,commons-validator.jar,jakarta-oro.jar,HTMLEditorPro.jar,resource_strings.jar,prm-img.jar,commons-logging.jar" />
+					<param name="mayscript" value="true" />
+					<param name="scriptable" value="true" />
+					<param name="image" value="/war/icons/loading.gif" />
+					<param name="classloader-policy" value="classic" />
+					<param name="Language" value="en" />
+					<param name="Country" value="" />
+					<param name="Variant" value="" />
+					<param name="cache_version"
+						value="15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360,15.1.0.0.360" />
+					<param name="enable508" value="false" />
+</applet>
+
+2. Activity
+<applet name="Activities" width="100%" height="100%" align="top"
+		id="Activities" 
+		code="com.primavera.pvapplets.activities.ActivitiesApplet"
+		codeBase="/war/applets"
+		archive="activities.jar,prm-applets-common.jar,gantt.jar,ilog.jar,forms-1.0.7.jar,prm-guisupport.jar,prm-to.jar,applets-bo.jar,poi.jar,poi-ooxml.jar,HTMLEditorPro.jar,jide.jar,prm-services.jar,tablesupport.jar,migcalendar.jar,calendars.jar,backport-util-concurrent.jar,commons-lang.jar,prm-common.jar,resource_strings.jar,prm-img.jar,commons-logging.jar"
+		vspace="0" hspace="0">
+		<param name="cache_option" value="Plugin" />
+		<param name="progressbar" value="false" />
+		<param name="boxmessage" value="" />
+		<param name="scriptable" value="true" />
+		<param name="mayscript" value="true" />
+		<param name="projectId" value="4518" />
+		<param name="ServerURL" value="http://localhost:7001/war/BO" />
+		<param name="PingURL" value="http://localhost:7001/war/ping" />
+		<param name="SchedulerURL"
+			value="http://localhost:7001/war/action/pm/projectjobaction?synchronous=true" />
+		<param name="TimeZone" value="Asia/Calcutta" />
+		<param name="UserId" value="91" />
+		<param name="DBId" value="1" />
+		<param name="Brand" value="" />
+		<param name="USessionId" value="16478" />
+		<param name="IsActivityViewIdStale" value="false" />
+		<param name="ActivityViewId" value="" />
+		<param name="contextPath" value="http://localhost:7001/war" />
+		<param name="RequestorLocale" value="en_US" />
+		<param name="IMAGESPATH" value="/war/icons/" />
+		<param name="Compress" value="true" />
+		<param name="java_arguments"
+			value="-Xms256m -Xmx1024m -Djnlp.packEnabled=true" />
+		<param name="databasename" value="p6e151" />
+		<param name="IsTemplate" value="false " />
+		<param name="csrf_token" value="-6136956586494170438" />
+		<param name="separate_jvm" value="true" />
+		<param name="image" value="/war/icons/loading.gif" />
+		<param name="classloader-policy" value="classic" />
+		<param name="Language" value="en" />
+		<param name="Country" value="" />
+		<param name="Variant" value="" />
+		<param name="cache_version"
+			value="15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149,15.1.0.0.149" />
+		<param name="enable508" value="false" />
+		</applet>
+		
+3. Project
+<applet name="Projects" width="100%" height="100%" align="top"
+			id="Projects" code="com.primavera.pvapplets.projects.ProjectsApplet"
+			archive="projects.jar,tablesupport.jar,prm-applets-common.jar,gantt.jar,ilog.jar,forms-1.0.7.jar,prm-guisupport.jar,prm-to.jar,applets-bo.jar,poi.jar,poi-ooxml.jar,HTMLEditorPro.jar,jide.jar,migcalendar.jar,calendars.jar,backport-util-concurrent.jar,formsupport.jar,commons-lang.jar,commons-collections.jar,prm-common.jar,resource_strings.jar,prm-img.jar,commons-logging.jar"
+			codeBase="/war/applets" vspace="0" hspace="0">
+			<param name="cache_option" value="Plugin" />
+			<param name="progressbar" value="false" />
+			<param name="boxmessage" value="" />
+			<param name="scriptable" value="true" />
+			<param name="mayscript" value="true" />
+			<param name="ServerURL" value="http://localhost:7001/war/BO" />
+			<param name="PingURL" value="http://localhost:7001/war/ping" />
+			<param name="SchedulerURL"
+				value="http://localhost:7001/war/action/pm/projectjobaction?synchronous=true" />
+			<param name="TimeZone" value="Asia/Calcutta" />
+			<param name="UserId" value="91" />
+			<param name="DBId" value="1" />
+			<param name="Brand" value="" />
+			<param name="USessionId" value="16510" />
+			<param name="IsProjectViewIdStale" value="false" />
+			<param name="ProjectViewId" value="" />
+			<param name="contextPath" value="http://localhost:7001/war" />
+			<param name="RequestorLocale" value="en_US" />
+			<param name="IMAGESPATH" value="/war/icons/" />
+			<param name="Compress" value="true" />
+			<param name="java_arguments"
+				value="-Xms256m -Xmx1024m -Djnlp.packEnabled=true" />
+			<param name="databasename" value="p6e151" />
+			<param name="iscmenabled" value="false" />
+			<param name="enableUPK" value="false" />
+			<param name="image" value="/war/icons/loading.gif" />
+			<param name="classloader-policy" value="classic" />
+			<param name="Language" value="en" />
+			<param name="Country" value="" />
+			<param name="Variant" value="" />
+			<param name="cache_version"
+				value="15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71,15.1.0.0.71" />
+			<param name="enable508" value="false" />
+		</applet>
